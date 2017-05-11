@@ -40,7 +40,7 @@ if(car === 'subaru'){
 var fruit = prompt('Do you think my favourite type of food is fruit? (Y|N)').toUpperCase();
 console.log(fruit);
 
-if(fruit === 'Y'){
+if(fruit === 'Y' || fruit === 'YES'){
   alert('You are right!');
 }else{
   alert('Wrong again.. It is Yes!');
