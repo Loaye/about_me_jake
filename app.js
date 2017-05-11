@@ -15,6 +15,7 @@ if(greeting === 'Y'){
 }
 
 var dog = prompt('How many dogs does Jake own(0-4)?');
+console.log(dog);
 
 if(dog === '1' || dog === '2'){
   alert('Nope not quite.. Almost');
@@ -26,6 +27,7 @@ if(dog === '1' || dog === '2'){
 
 
 var car = prompt('What kind of car do you think Jake owns? (Subaru|Ford|Toyota)').toLowerCase();
+console.log(car);
 
 if(car === 'subaru'){
   alert('Yay!! That is right! Good guess!');
@@ -36,6 +38,7 @@ if(car === 'subaru'){
 }
 
 var fruit = prompt('Do you think my favourite type of food is fruit? (Y|N)').toUpperCase();
+console.log(fruit);
 
 if(fruit === 'Y'){
   alert('You are right!');
@@ -44,6 +47,7 @@ if(fruit === 'Y'){
 }
 
 var hat = prompt('How many hats do you think Jake owns?').toLowerCase();
+console.log(hat);
 
 if(hat === '1' || hat === 'one'){
   alert('You are correct!!');
@@ -54,6 +58,7 @@ if(hat === '1' || hat === 'one'){
 }
 
 var colour = prompt('What do you think Jake\s favourite colour is? (Black|Red|Purple)').toLowerCase();
+console.log(colour);
 
 if(colour === 'black'){
   alert('That is correct!! One with the darkness..muwahahah');
